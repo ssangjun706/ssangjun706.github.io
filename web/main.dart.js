@@ -21885,7 +21885,7 @@ o.m(p,"initial_run",!1)
 $.ant().l0("Bool","flutter.initial_run",!1)
 q=!0
 s=1
-break}q=!1
+break}q=!0
 s=1
 break
 case 1:return A.T(q,r)}})
@@ -21893,7 +21893,7 @@ return A.U($async$ajF,r)},
 qt:function qt(a){this.a=a},
 wt:function wt(a){this.a=a},
 Od:function Od(a){var _=this
-_.d=!1
+_.d=!0
 _.a=null
 _.b=a
 _.c=null},
@@ -73375,7 +73375,7 @@ A.a11.prototype={
 $1(a){return B.uA},
 $S:438}
 A.qt.prototype={
-K(a){return new A.wA(B.Gt,"Title",A.ar8(B.al,B.l,null,A.arm()),!1,null)}}
+K(a){return new A.wA(B.Gt,"App",A.ar8(B.al,B.l,null,A.arm()),!1,null)}}
 A.wt.prototype={
 al(){return new A.Od(B.k)}}
 A.Od.prototype={
