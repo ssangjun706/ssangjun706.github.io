@@ -77282,7 +77282,7 @@ yP(a){var s
 if(a>=1e8){s=""+B.e.dU(a/1e8)+"\uc5b5 "
 a=B.d.aA(a,1e8)}else s=""
 if(a>=1e4){s+=""+B.e.dU(a/1e4)+"\ub9cc "
-a=B.d.aA(a,1e4)}return s+(""+a+"\uc6d0")},
+a=B.d.aA(a,1e4)}return a>0?s+(""+a+"\uc6d0"):s},
 kK(a){var s,r
 a=A.m_(a,"\uc6d0","")
 if(B.c.B(a,"\uc5b5")){s=a.split("\uc5b5")
@@ -77933,8 +77933,9 @@ return s.a2(new A.amv(s,this.b))},
 $S:0}
 A.amv.prototype={
 $0(){var s,r=this.b,q=r.a.a
-if(q.length!==0){s=this.a.d
-r.see(0,s.yP(s.kK(q)*10))}},
+if(q.length!==0)s=this.a.d.kK(q)*10
+else s=0
+r.see(0,this.a.d.yP(s))},
 $S:0}
 A.amB.prototype={
 $0(){var s=this.a
