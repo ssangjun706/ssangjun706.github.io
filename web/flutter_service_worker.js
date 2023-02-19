@@ -3,8 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.bin": "262bc0a4621771dcb7878215e62cc0ea",
-"assets/AssetManifest.json": "12d38358b2491a2d434abe0015823d1b",
+  "assets/AssetManifest.bin": "08fe1b241bdfd6f8ea6d2ae76e28252e",
+"assets/AssetManifest.json": "1ebbab7009afc2676fb3c86844b02a18",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/fonts/MaterialIcons-Regular.otf": "df3735dca80e0a2e320c96627311e4f4",
 "assets/image/bank.png": "ce8da815585ca4d946b982df9eabf3f0",
@@ -15,6 +15,7 @@ const RESOURCES = {
 "assets/image/kakao_login_large_narrow.png": "c131a7373ebf8184425abc238dab0d0b",
 "assets/image/key.png": "b06f03b7b1a46a51943757fac4ce820d",
 "assets/image/name.png": "61bfe538e4c59f9491deda75dee05ce7",
+"assets/image/payday.png": "8ab50741d3237df7fca5dda5d6bd3218",
 "assets/image/report-noti.png": "597b986a0f520a32b09a47ef1e42e641",
 "assets/image/stats.png": "588e37a963c71788480be3ef2147ba21",
 "assets/NOTICES": "3c7bd56bf96d5537a6508db9ccb57c45",
@@ -28,9 +29,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5d0e711fcbf522aeeda6958fc54addbc",
+"index.html": "4409614552dbe4b783cf787b601d5305",
 "/": "49f6784744b605662d4feab3744e5007",
-"main.dart.js": "80fd6053c762392e7fe3300a4126f7f3",
+"main.dart.js": "4d56327ce28ac9b80bc54caf2e10f02b",
 "manifest.json": "a208a222290bcbb3c22f0af0d3e76e0c",
 "version.json": "501fab397dff07b85a5bb97d8c20fc1d",
 "web/assets/AssetManifest.bin": "92054f845eb8411d69b61bbeb6885fa3",
